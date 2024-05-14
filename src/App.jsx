@@ -22,6 +22,11 @@ function App() {
      <Route path="/home" element={<Home/>} />
    </Routes>
 </div>
+<div id="footer">
+        <Link to="/blue">Blue</Link>
+        <Link to="/red">Red</Link>
+        <Link to="/home">Home</Link>
+      </div>
     </div>
       </div>
     </>
